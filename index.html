@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Portfolio | Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="app">
+        <nav class="navbar">
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </nav>
+
+        <main>
+            <section id="hero" class="section hero">
+                <div class="hero-content">
+                    <h1 class="animate-up">Crafting Digital <br><span class="gradient-text">Experiences</span></h1>
+                    <p class="subtitle animate-up delay-1">I build accessible, pixel-perfect, and performant web
+                        applications.</p>
+                    <div class="cta-group animate-up delay-2">
+                        <a href="#projects" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual animate-fade delay-3">
+                    <div class="glow-orb"></div>
+                </div>
+            </section>
+
+            <section id="about" class="section about">
+                <div class="container">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <p>Hello! I'm MARK JAMES TAN,a passionate developer with a knack for creating elegant
+                                solutions in the
+                                least amount of time. I specialize in JavaScript, CSS, and modern frameworks.</p>
+                            <div class="skills-list">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">UI/UX</span>
+                            </div>
+                        </div>
+                        <div class="about-visual">
+                            <!-- Abstract geometric shape here via CSS -->
+                            <div class="geometric-shape"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section projects">
+                <div class="container">
+                    <h2 class="section-title">Selected Works</h2>
+                    <div class="project-grid">
+                        <article class="project-card">
+                            <div class="card-image bg-gradient-1"></div>
+                            <div class="card-content">
+                                <h3>E-Commerce Dashboard</h3>
+                                <p>A comprehensive dashboard for managing online stores with real-time analytics.</p>
+                                <a href="#" class="link-arrow">View Project &rarr;</a>
+                            </div>
+                        </article>
+                        <article class="project-card">
+                            <div class="card-image bg-gradient-2"></div>
+                            <div class="card-content">
+                                <h3>Social Connect App</h3>
+                                <p>Connecting people through shared interests with a focus on privacy and speed.</p>
+                                <a href="#" class="link-arrow">View Project &rarr;</a>
+                            </div>
+                        </article>
+                        <article class="project-card">
+                            <div class="card-image bg-gradient-3"></div>
+                            <div class="card-content">
+                                <h3>FinTech Landing Page</h3>
+                                <p>High-conversion landing page with complex animations and 3D elements.</p>
+                                <a href="#" class="link-arrow">View Project &rarr;</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact">
+                <div class="container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="contact-text">Currently open for new opportunities. Let's build something amazing
+                        together.</p>
+                    <a href="mailto:hello@example.com" class="btn primary big-btn">Say Hello</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Github</a>
+                <a href="https://www.linkedin.com/in/mark-james-tan-6679552b1/">LinkedIn</a>
+                <a href="https://x.com/Tan6Mark?t=hX-uiTQKm9Ee8hMApLBymg&s=09">Twitter</a>
+                <a href="https://www.facebook.com/markmj.tan">Facebook</a>
+            </div>
+        </footer>
+    </div>
+    <script src="./main.js" defer></script>
+</body>
+
+</html>
